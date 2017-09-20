@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/colorPicker"
+            android:icon="@drawable/pickericon"
+            android:title="Change color of brush" />
+
+        <item
+            android:id="@+id/colorbackground"
+            android:icon="@drawable/bg"
+            android:title="Change color of background" />
+        <item
+            android:id="@+id/nav_width"
+            android:icon="@drawable/sizeicon"
+            android:title="Stroke Width" />
+        <item
+            android:id="@+id/eraser"
+            android:icon="@drawable/eraser"
+            android:title="Eraser" />
+        <item
+            android:id="@+id/erasersize"
+            android:icon="@drawable/sizeoferaser"
+            android:title="Change Eraser Size" />
+        <item
+            android:id="@+id/clearall"
+            android:icon="@drawable/delete"
+            android:title="Clear All" />
+        <item
+            android:id="@+id/saveimage"
+            android:icon="@drawable/delete"
+            android:title="Save" />
+
+    </group>
+
+    <item android:title="Talk to us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
